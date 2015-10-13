@@ -1,0 +1,311 @@
+@import url(normalize.css);
+
+/* Body */
+
+body{
+    font-family: 'Arial', sans-serif; /* font-family: 'Righteous', cursive; */
+    font-size: 14px;
+    line-height: 30px;
+    background: 
+        url(../images/bg-pattern-top.png) no-repeat scroll top,
+        url(../images/bg-pattern-bottom.png) no-repeat scroll bottom,
+        url(../images/bg-body.jpg);}
+
+/* Main containers */
+
+#body-container{
+    width:940px;
+    padding:0 10px;
+    margin: 0 auto;}
+.main-content{
+    padding:0 10px;}
+.no-main-banner-content{
+    padding-top: 200px;}
+
+
+/* General styling */
+
+h1, 
+h2{
+    text-transform: uppercase;
+    font-weight: bold;}
+h1{
+    font-style: italic;
+    font-size: 1.714em;}
+h2{ 
+    font-size: 1em;}
+p{
+    text-align:justify;}
+img{
+    display: block;}
+
+
+/* Navigation */
+
+.top-menu{
+    text-align: center;
+    margin-bottom: 39px;}
+.top-menu-list{
+    padding: 0;
+    margin: 0;}
+.top-menu-list .top-menu-item{
+    display: inline-block;
+    margin:0 18px;
+    
+    font-weight: bold;
+    font-style: italic;
+    color:#000;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 0px #ffe400;}
+.top-menu-list .top-menu-item.active{
+    color:#fde989;
+    text-shadow: none;
+    background-color: #000;
+    box-shadow: 3px 4px 0px #ffe400;}
+.top-menu-item .btn-link{
+    padding:15px 19px;}
+
+/* Main-Logo */
+
+.header-logo-img{
+    margin: 0 auto;
+    display: block;}
+
+/* Banners */
+
+.main-banner{
+    width: 960px;
+    margin: 0 -10px;}
+.main-banner-image{
+    float: left;}
+
+/* Buttons */
+
+.getItNow-sticker{
+    position: absolute;
+    width:78px;
+    height: 79px;
+    background: url(../images/get-it-now.png) no-repeat;}
+.btn-more{
+    float: right;
+    font-size: 0.857em;}
+.btn-link{
+    display: inline-block;
+    text-decoration: none;
+    color:inherit;}
+
+/* Home-page content */
+#homepage-main-banner{
+    margin-bottom: 72px;}
+.homepage-content-columns h1{
+    margin: 0;
+    margin-bottom: 10px;}
+.homepage-content-columns .btn-more{
+    padding-right: 15px;}
+
+.homepage-content-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 8px;}
+.homepage-content-list p, 
+.homepage-content-list h2,
+a{
+    margin: 0;
+    line-height: 24px;}
+.homepage-content-list li{
+    position: relative;
+    padding: 10px 15px 16px;}
+.homepage-content-list li:nth-child(odd){
+    padding: 8px 15px 14px;}
+
+.homepage-content-column-left{
+    position: relative;
+    float:left;
+    width:550px;}
+.homepage-content-column-left h1{
+    margin-left: 10px;}
+.homepage-content-list.promo-package-list{
+    padding: 1px 0;}
+.homepage-content-list.promo-package-list li:nth-child(odd){
+    background: url(../images/bg-yellow.png) no-repeat;}
+.promo-package-list .promo-package-price{
+    float:right;}
+.package-getItNow-sticker{
+    top:-25px;
+    right:0;}
+
+.homepage-content-column-right{
+    float:right;
+    width:310px;}
+.homepage-content-list.promo-blog-list{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;}
+.homepage-content-list.promo-blog-list li{
+    padding-left: 40px;}
+.promo-blog-list li a{
+    display: block;
+    color:inherit;
+    text-align: justify;
+    text-decoration: none;}
+.promo-blog-list li a:hover{
+    text-decoration: underline;}
+.promo-blog-list .blog-date-wrapper{
+    position: absolute;
+    top:15px;
+    left:0px;}
+.promo-blog-list li:nth-child(even) .blog-date-wrapper{
+    top:17px;}
+.promo-blog-list .blog-date{
+    display: block;
+    font-weight: bold;}
+.promo-blog-list .blog-date-month{
+    font-size: 0.857em;
+    line-height: 1.071em;
+    text-transform: uppercase;}
+.blog-date-day{
+    font-size: 1.571em;}
+
+/* Packages content */
+#packages-main-banner{
+    margin-bottom: 30px;}
+#packages-content h1{
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;}
+.packages-content-column{
+    float: left;
+    width: 280px;
+    margin-right: 40px;}
+.packages-content-column:last-child{
+    margin-right: 0px;}
+
+/* About Us */
+
+#about-us-content h1{
+    margin: 0;
+    line-height: 36px;}
+#about-us-content p{
+    margin: 0;
+    margin-bottom: 36px;}
+.about-content-column-left{
+    float: left;
+    width: 440px;
+    padding: 222px 10px 0;}
+.about-content-column-right{
+    float: right;
+    width: 440px;
+    padding: 42px 10px 0;}
+.about-content-column-right img{
+    margin-left: 110px;
+    margin-bottom: 24px;}
+
+/* Blog */
+
+#blog-content img{
+    border: 2px solid #ffde00;
+    margin-bottom: 8px;}
+#blog-content p{
+    margin-top: 0;}
+
+.blog-aticle{
+    float:left;
+    width:660px;}
+.blog-aticle h1{
+    margin: 0;
+    margin-bottom: 4px;}
+.blog-aticle img{
+    margin-top: 34px;}
+
+.blog-aside-bar{
+    float: right;
+    width: 230px;}
+.blog-aside-bar section{
+    margin-bottom: 30px;}
+.aside-bar-recent-post h2{
+    line-height: 22px;
+    margin-top: 0;
+    margin-bottom: 14px;}
+.aside-bar-recent-post div{
+    margin-bottom: 18px;
+    border-bottom: 1px solid #000;
+}
+.aside-bar-recent-post p{
+    margin-bottom: 11px;}
+.aside-bar-recent-post div:last-child{
+    border-bottom: 0;}
+.aside-bar-archive h2{
+    margin-bottom: 0;}
+.aside-bar-archive-list{
+    margin: 0;
+    padding-left: 16px;
+    list-style:disc;
+    text-align:justify;}
+.aside-bar-archive-list span{
+    position: relative;
+    left:-7px;}
+    
+/* Contacts */
+
+#contacts-content section{
+    margin-bottom: 30px;}
+#contacts-content p{
+    margin: 0;}
+.contacts-section-label{
+    display: block;
+    text-transform: uppercase;}
+/* Footer */
+
+footer{
+    padding:78px 0 70px;}
+.footer-social-btn-container{
+    position: relative;
+    margin-bottom: 7px;}
+.footer-social-label{
+    font-weight: bold;
+    text-transform: uppercase;}
+.social-btn{
+    position: absolute;
+    top:3px;
+    height: 25px;
+    width: 25px;
+    background: url(../images/icons.png) no-repeat;}
+.social-btn-fb{
+    left: 80px;
+    background-position: 0 0;}
+.social-btn-fb:hover{
+    background-position: 0 -26px;}
+.social-btn-tw{
+    width: 36px;
+    height: 26px;
+    left: 120px;
+    background-position: -26px 0;}
+.social-btn-tw:hover{
+    background-position: -26px -26px;}
+.social-btn-gg{
+    left: 172px;
+    background-position: -63px 0;}
+.social-btn-gg:hover{
+    background-position: -63px -26px;}
+.footer-copyright{
+    font-size: 0.857em;}
+
+/* Fixes */
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
